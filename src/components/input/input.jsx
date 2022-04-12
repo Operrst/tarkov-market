@@ -20,4 +20,8 @@ function MyInput() {
 }
 // input
 
+function DataFetching() {
+  const [data, setData] = useState([]);
+}
+
 export default MyInput;
