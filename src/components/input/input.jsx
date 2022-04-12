@@ -23,5 +23,5 @@ function MyInput() {
 function DataFetching() {
   const [data, setData] = useState([]);
 }
-
+// s
 export default MyInput;
