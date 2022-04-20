@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .item-container {
+    width: 50%;
+    text-align: center;
+    margin-top: 10%;
+  }
+  .img-container {
+    text-align: center;
+    width: 50%;
+    margin-top: 10%;
+  
+  }
+  
+  .color-price{
+      color:#70a800;
+      margin-bottom: 4%;
+  }
