@@ -46,8 +46,8 @@ function MarketView() {
           <td>link</td>
         </tr>{" "}
         {table.map((item) => (
-          <tr>
-            <td key={item.uid}>{item.name}</td>
+          <tr key={item.uid}>
+            <td >{item.name}</td>
             <td>{item.price}</td>
             <td>
               <img src={item.img}></img>
