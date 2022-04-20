@@ -6,7 +6,6 @@ import ItemDetails from "../ItemDetails";
 
 export default function ItemName() {
   let { itemName } = useParams();
-  console.log(itemName);
   let [item, setItem] = useState("");
 
   useEffect(() => {
@@ -15,7 +14,6 @@ export default function ItemName() {
         `https://tarkov-market.com/api/v1/item?q=${itemName}&x-api-key=QTnLRoCJbP25tEEd`
       )
       .then((res) => {
-        console.log(res.data[0]);
         setItem(res.data[0]);
       });
   }, []);

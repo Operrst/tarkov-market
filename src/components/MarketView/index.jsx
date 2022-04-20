@@ -16,7 +16,6 @@ function MarketView() {
           `https://tarkov-market.com/api/v1/item?q=${name}&x-api-key=QTnLRoCJbP25tEEd`
         )
         .then((res) => {
-          console.log(res);
           setTable(res.data);
         });
     } else {
