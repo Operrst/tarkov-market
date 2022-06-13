@@ -71,7 +71,7 @@ function MarketView() {
           <div onClick={() => handleClick(_tag,"cos")}>{_tag}</div>
         ))}
       </div> */}
-      <table>
+      <table className="table">
         <tr>
           <td>name</td>
           <td>price</td>
